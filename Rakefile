@@ -1,4 +1,3 @@
-require 'testc/tasks'
 require 'cucumber/rake/task'
 
 namespace :teste do
@@ -12,5 +11,10 @@ namespace :teste do
       end
       Rake::Task[:run].invoke
     end
+    
   end
+end
+
+task :default do
+      puts "Hello World!"
 end
