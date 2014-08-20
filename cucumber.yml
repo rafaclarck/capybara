@@ -1,1 +1,0 @@
-default: -r test_specs/motor/ -r test_specs/test_definition -r test_specs\web_interface test_specs
