@@ -1,1 +1,1 @@
-default: -r test_specs/motor/ -r test_specs/test_definition -r test_specs\web_interface test_specs
+default: -r features/suport/ -r features/test_definition -r feature\web_interface features
